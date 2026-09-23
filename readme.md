@@ -25,13 +25,13 @@ Known limitation: the avalanche effect is weaker for bytes near the end of the i
 How to run it
 ```bash
 # Compile
-g++ -std=c++17 -Wall -o simple_hash256 simple_hash256.cpp
+g++ -std=c++17 -Wall -o hash hash.cpp
 
 # Run on text
-echo -n "hello world" | ./simple_hash256
+echo -n "hello world" | ./hash
 
 # Run on a file
-./simple_hash256 myfile.txt
+./hash myfile.txt
 ```
 
 Always 64 hex characters, no matter the input length.
