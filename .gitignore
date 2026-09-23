@@ -1,0 +1,9 @@
+.gitignore · GITIGNORE
+
+custom_hash
+*.o
+*.out
+*.exe
+.vscode/
+.DS_Store
+ 
