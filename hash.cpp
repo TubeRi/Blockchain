@@ -26,7 +26,7 @@ void hashBytes(const std::vector<unsigned char>& data, uint64_t lanes[4]) {
         for (int i = 0; i < 4; i++) {
             lanes[i] ^= byte;    // mix the byte in
             lanes[i] *= PRIME[i]; // spread the bits around
-        }
+        }   // so called shit avalanche effect but not secured enough
     }
 }
 
